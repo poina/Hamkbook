@@ -1,0 +1,209 @@
+*
+
+.ilmoituslayer
+{
+height: 510px;
+width: 330px;
+float: right;
+margin-right:10px;
+margin-top:10px;
+background-color:#E8EBF2;
+}
+.ilmoitusotsikko
+{
+height:100px;
+width: 300px;
+float: right;
+margin-right: 10px;
+margin-top: 20px;
+background-color:#E8EBF2;
+}
+.otsikko1
+{
+float: right;
+height: auto;
+width: auto;
+margin-top: 70px;
+margin-right: 90px;
+background-color:#E8EBF2;
+}
+.valiviiva
+{
+height:18px;
+width: 300px;
+background-color: #E8EBF2;
+float: right;
+margin-right: 10px;
+margin-top: 10px;
+}
+.tulostus
+{
+margin: auto;
+height: 20px;
+width: 150px;
+background-color: #E8EBF2;
+}
+
+.tulostusrivi
+{
+float: right;
+position:relative;
+height: 20px;
+width: 320px;
+margin-top: 5px;
+background-color: #E8EBF2;
+}
+
+.tulostus2
+{
+height: 20px;
+width: 150px;
+margin: auto;
+background-color:#E8EBF2;
+}
+.tulostusrivi2
+{
+float: right;
+height: 20px;
+width: 320px;
+margin-top: 5px;
+background-color:#E8EBF2;
+
+}
+
+.etu
+{
+height:40px;
+width: 220px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.etuapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.suku
+{
+height:40px;
+width: 220px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.sukuapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.sahkop
+{
+height:40px;
+width: 220px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.sahkopapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color:#E8EBF2;
+}
+.sala
+{
+height:40px;
+width: 220px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.salaapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.salauud
+{
+height:40px;
+width: 220px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.salauudapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.syntaika
+{
+height:40px;
+width: 230px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.syntaikaapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.apukentta
+{
+height: auto;
+width: auto;
+float: right;
+}
+
+.nappilayer
+{
+height:50px;
+width: 320px;
+float:right;
+margin-right:0px;
+background-color: #E8EBF2;
+}
+.nappi
+{
+margin-left:90px;
+height: 33px;
+width:149px;
+background-color: #E8EBF2;
+}
+
+h1
+{
+font-size: 36px;
+color: white;
+margin-bottom: 2px;
+}
+h2
+{
+font-size: 20px;
+color: black;
+}
+p
+{
+font-size: 18px;
+color: white;
+margin-bottom:12px;
+}

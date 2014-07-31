@@ -1,0 +1,41 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.sisalto
+{
+float: top;
+width: 930px;
+height:600px;
+position: relative;
+left: 50%;
+margin-left: -465px;
+background-color: #E8EBF2;
+}
+
+.kuvalayer
+{
+height: 520px;
+width: 570px;
+margin-left:10px;
+margin-top:10px;
+float: left;
+background-color:#E8EBF2;
+}
+.kuvaotsikko
+{
+height: 40px;
+width:499px;
+margin: auto;
+background-color:#E8EBF2;
+margin-top:100px;
+}
+.kuva
+{
+height: 500px;
+width: 499px;
+margin: auto;
+background-color:#E8EBF2;
+margin-top: 5px;
+}

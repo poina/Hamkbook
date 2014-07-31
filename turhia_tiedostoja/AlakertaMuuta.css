@@ -1,0 +1,131 @@
+.ilmoituslayer
+{
+height: 520px;
+width: 380px;
+position: relative;
+left: 50%;
+margin-left: -190px;
+background-color:#E8EBF2;
+}
+.ilmoitusotsikko
+{
+height:100px;
+width: 300px;
+float: right;
+margin-right:10px;
+
+/*float: right;
+margin-right: 10px;
+margin-top: 20px;*/
+background-color:#E8EBF2;
+}
+.otsikko1
+{
+float: right;
+height: auto;
+width: auto;
+margin-top: 40px;
+margin-right: 40px;
+background-color:#E8EBF2;
+}
+.valiviiva
+{
+height:1px;
+width: 300px;
+background-color:#E8EBF2;
+float: right;
+float: right;
+margin-right:35px;
+margin-bottom:15px;
+}
+.etu
+{
+height:40px;
+width: 280px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.etuapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.suku
+{
+height:40px;
+width: 280px;
+float:right;
+margin-right: 10px;
+background-color: #E8EBF2;
+}
+.sukuapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+
+.syntaika
+{
+height:40px;
+width: 280px;
+float:right;
+margin-right: 10px;
+background-color:#E8EBF2;
+}
+.syntaikaapu
+{
+height:40px;
+width: 80px;
+float:right;
+margin-right: 1px;
+background-color: #E8EBF2;
+}
+.apukentta
+{
+height: auto;
+width: auto;
+float: right;
+}
+
+.nappilayer
+{
+height:50px;
+width: 380px;
+float:right;
+margin-right:0px;
+background-color: #E8EBF2;
+}
+.nappi
+{
+float: right;
+height: 33px;
+width:75px;
+margin-right: 70px;
+
+}
+
+h1
+{
+font-size: 36px;
+color: white;
+margin-bottom: 2px;
+}
+h2
+{
+font-size: 20px;
+color: black;
+}
+p
+{
+font-size: 18px;
+color: white;
+margin-bottom:12px;
+}
+

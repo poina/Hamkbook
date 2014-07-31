@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<!-- javascript -->
+<script type="text/javascript">
+<!--
+function delayer(){
+    window.location = "index.php"
+}
+//-->
+</script>
+</head>
+
+<!-- ajastin joka siirtyy etusivulle 5 sekunnin päästä -->
+<body onLoad="setTimeout('delayer()', 5000)">
+
+
+
+<!-- sisältö -->
+<p>Kirjoitit kirjautumistiedot väärin, tarkista sähköpostiosoite ja salasana.</p>
+</ br>
+<p>Sinut ohjataan takaisin etusivulle</p>
+</ br>
+<form action = "index.php" method="post">
+			
+			<input type="submit" value ="Etusivulle" />
+			
+		</form>
+
+
+</body>
+</html>

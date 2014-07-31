@@ -1,0 +1,114 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+background-image: url('tausta.jpg');
+background-repeat: repeat;
+}
+
+.ylakerta
+{
+width:930px;
+height:80px;
+background-color: #3B5998;
+position: relative;
+left: 50%;
+margin-left: -465px;
+}
+.otsikko
+{
+position: relative;
+width:200px;
+height: 40px;
+float: top;
+float:left; 
+margin-left: 20px;
+margin-top: 20px;
+background-color: #3B5998;
+}
+
+
+.kirjaudunappi
+{
+width:60px;
+height:20px;
+float: right;
+background-color: #3B5998;
+margin-right: 20px;
+margin-top: 15px;
+}
+
+.MuutaSalasana
+{
+width:100px;
+height:20px;
+float: right;
+background-color: #3B5998;
+margin-right: 10px;
+margin-top: 15px;
+}
+.Kirjautumistunnus
+{
+width:140px;
+height:20px;
+float: right;
+background-color: #3B5998;
+margin-right: 10px;
+margin-top: 15px;
+}
+.MuutaTunnus
+{
+width:100px;
+height:20px;
+float: right;
+background-color: #3B5998;
+margin-right: 1px;
+margin-top: 15px;
+}
+.kirjaudu
+{
+width:400px;
+height: 70px;
+float:right;
+background-color: #3B5998;
+}
+.kirjaudusalasana
+{
+width:150px;
+height:20px;
+float: right;
+margin-top: 15px;
+margin-right: 5px;
+background-color: #3B5998;
+}
+.kirjaudutunnus
+{
+width:150px;
+height:20px;
+float:right;
+margin-top: 15px;
+margin-right: 5px;
+background-color:#3B5998;
+}
+.salasanateksti
+{
+width:150px;
+height:20px;
+float:right;
+margin-right: 5px;
+background-color:#3B5998;
+}
+.tunnusteksti
+{
+width: 150px;
+height: 20px;
+float: right;
+margin-right: 5px;
+background-color:#3B5998;
+}
+
+

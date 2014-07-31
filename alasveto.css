@@ -1,0 +1,164 @@
+.alasveto
+{
+width:30px;
+height:60px;
+float: right;
+background-color: .3B5998;
+margin-right: 1px;
+margin-top: 5px;
+}
+.navi {
+	clear:both;
+	list-style:none;
+	float:right;
+	margin:0;
+	margin-top:4px;
+	padding:0;
+	width:100%;
+	background-color: .3B5998;
+	z-index:1000; 
+	position:relative;
+}
+.navi li{
+  float:left;
+  margin-right:40px;
+  position:relative;
+  padding-left: 10px;
+  text-align: left;
+  padding-right: 5px;
+}
+.navi li:hover ul{ /* Display the dropdown on hover */
+  left:0; /* Bring back on-screen when needed */
+  background-color: .ffcf34;
+}
+.navi li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+  background:.d7ac20;
+  text-decoration:underline;
+}
+.navi li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+  text-decoration:none;
+  background-color: .ffcf34;
+}
+.navi li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+  background:.d7ac20;
+  text-decoration: underline;
+}
+.navi a{
+  display:block;
+  padding:5px;
+  color:.000;
+  background:.ffcf34;
+  text-decoration:none;
+  font-size: 16px;
+}
+.navi a:hover{
+  color:.000;
+  background:.ffcf34;
+  text-decoration:underline;
+}
+
+.navi a:link{
+font-weight: bold;
+color: .000000;
+}
+.navi a:visited {
+font-weight: bold;
+color: .000000;
+}
+
+
+
+/* Top menu items */
+.navi ul {
+   background:.fff;
+   background:.3B5998;
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:absolute;;
+   right:50%;
+}
+.navi ul li {
+   margin: 0px;
+   padding:0px;
+   float:left;
+   position:relative;
+   left:50%;
+   
+}
+.navi ul a{
+  white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+
+
+
+/*ekan tason asetuksia*/
+.navi ul li a {
+   display:block;
+   margin:0;
+   padding: 7px 6px 4px; 
+   background:.FFFFFF;
+   text-decoration:none;
+   font-weight:bold;
+   background-color: .3B5998;
+  
+}
+
+
+/*hiiri p‰‰ll‰ asetuksia*/
+.navi ul li a:hover {
+   background:.3974C3; /* menun taustav‰ri kun hiiri on p‰‰ll‰ */
+   color:.0000;
+}
+.navi ul li:hover a,
+.navi ul li.hover a { /* IE6 tai alle */
+   background:.3974C3; /* menun taustav‰ri kun hiiri on p‰‰ll‰ */
+   color:.0000;
+}
+
+/* alavalikot */
+.navi ul ul {
+   display:none; /* alavalikot ei n‰y jos hiiri ei ole p‰‰ll‰ */
+   position:absolute;
+   top:2em;
+   left:0;
+   right:auto; /*resets the right:50% on the parent ul */
+   width:150px; /* alavalikkojen leveys */
+}
+.navi ul ul li {
+   left:auto;  /*resets the left:50% on the parent li */
+   margin:0; 
+   clear:left;
+   width:100%;
+}
+.navi ul ul li a,
+.navi ul li.active li a,
+.navi ul li:hover ul li a,
+.navi ul li.hover ul li a { /* IE6 tai alle */
+
+   background:white;
+   color:.0000;
+   line-height:22px; /* alavalikon rivin korkeus */
+   border-bottom:1px solid .ddd; /* alavalikon viiva */
+}
+.navi ul ul li a:hover,
+.navi ul li.active ul li a:hover,
+.navi ul li:hover ul li a:hover,
+.navi ul li.hover ul li a:hover { /* IE6 tai alle */
+   background:.3974C3; /* alavalikon mouseover tausta */
+   color:.0000;
+}
+
+/* K‰‰nt‰‰ viimeisen valikon avautumaan oikealta vasemmalle ettei se menisi n‰ytˆn reunan yli */
+.navi ul ul.last {
+   left:auto; /* reset left:0; value */
+   right:0; /* Set right value instead */
+}
+
+/* Make the sub menus appear on hover */
+.navi ul li:hover ul,
+.navi ul li.hover ul { /* E6 tai alle */
+   display:block; /* Show the sub menus */
+
+
